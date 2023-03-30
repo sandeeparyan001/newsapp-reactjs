@@ -36,3 +36,139 @@
     transform: rotate(360deg);
   }
 }
+
+/* Footer section */
+
+.body{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #ede7f6;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 53px 24px ;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+footer .containers{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .containers .sec{
+  margin-right: 30px;
+}
+footer .containers .sec.aboutus{
+  width: 40%;
+}
+footer .containers h2{
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .containers h2::before{
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+footer  p{
+  color: #999;
+}
+.sci{
+  margin-top: 100px;
+  display: flex;
+  text-align: right;
+}
+.sci li{
+  list-style: none;
+}
+.sci li a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 50%;
+ 
+}
+.sci li a .fa{
+  color: #fff;
+  font-size: 20px;
+}
+.sci li a:hover{
+  background: #3b5998;
+  transform: translateY(1.5);
+}
+.quicklinks{
+  width: 25%;
+  position: relative;
+}
+.quicklinks ul li{
+  list-style: none;
+}
+.quicklinks ul li a{
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+  
+}
+.quicklinks ul li a:hover{
+  color: #fff;
+}
+
+.contact{
+  width: calc(35%-60%);
+  margin-right: 0 !important;
+
+}
+.contact .info{
+  position: relative;
+}
+.contact .info li{
+  display: flex;
+  margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1){
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.contact .info li span{
+  color: #999;
+}
+.contact .info li a{
+  text-decoration: none;
+  color: #999;
+}
+.contact .info li a:hover{
+  color: #fff;
+}
+/*   about the news app  */
+.h2{
+  text-align: center;
+  margin-top: 15px;
+}
+.newsabout{
+  padding: 15px;
+  background: #FFFFFF;
+
+}
