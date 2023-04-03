@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter basename="/newswebsite-react">
+        <BrowserRouter>
             <NavBar/>
             <Routes>
                 <Route exact path='/' element={<News key="general" country="in" category="general"/>}></Route>
